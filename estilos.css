@@ -1,0 +1,213 @@
+*{
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 16px;
+}
+
+header{
+    height: 80px;
+
+}
+
+.contenedorLogo{
+    display: flex;
+   justify-content:center;
+}
+
+.contenedorBody{
+    display: flex;
+}
+
+.pokedex{
+    width: 100%;
+    /*background-color: aqua;*/
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.busqueda{
+    height: 630px;
+    background-color: rgb(199, 6, 6);
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+
+.busqueda_uno{
+    display: flex;
+    height: 80px;
+}
+
+.unoAdorno{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 25px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+    
+
+}
+.dosAdorno{
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.tresAdorno{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.cuatroAdorno{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+}
+
+.busqueda_dos{
+    height: 400px;
+    display: flex;
+    /*background-color: rgba(255, 0, 0, 0.842);*/
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.contedor_informacion{
+   
+    width: 95%;
+    height: 95%;
+    background-color: black;
+    border: 10px solid gray;
+    border-radius: 10%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen_pokemon{
+    width: 45%;
+    height: 90%;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 3px solid black;
+}
+
+.informacion_pokemon{
+    width: 45%;
+    height: 90%;
+    margin-top: 10px;
+    background-color: white;
+    border-left: 3px solid black;
+    padding-left: 3px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+
+.busqueda_tres{
+    height: 60px;
+    /*background-color: yellow;*/
+    
+}
+
+.botones
+{
+    display: flex;
+}
+
+.unoBoton{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-top: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.dosBoton{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 25px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.tresBoton{
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 25px;
+    border: 1px solid black;
+    box-shadow: 2px 5px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.busqueda_cuatro{
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+.cuadroBusqueda{
+    width: 200px ;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid black;
+}
+
+.botonBuscar{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-top: 4px;
+    margin-left:10px ;
+    box-shadow: inset 0px;
+    background: radial-gradient(circle at center, rgb(240, 52, 52) 0, rgb(163, 16, 6)100%);
+   border: 0;
+}
+
+.entrada{
+    border-radius: 5px;
+    width: 150px;
+}
